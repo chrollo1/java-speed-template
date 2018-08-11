@@ -12,8 +12,7 @@ public class good_code_prac {
 		new good_code_prac().IO();
 	}
 	
-	public void IO() throws IOException {
-		
+	public void IO() throws IOException {	
 		int a = readInt();
 		int b = readInt();
 		
