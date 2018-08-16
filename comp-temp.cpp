@@ -26,7 +26,7 @@ int main() {
 	cin.tie(0);
 	cin.sync_with_stdio(0);
   
-  doit();
+        doit();
   
 	return 0;
 }
