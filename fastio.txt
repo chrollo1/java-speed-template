@@ -47,3 +47,49 @@
 		System.out.close();
 		System.exit(0);
 	}
+
+/////////////////////////////////////////////////////////////////////
+
+public class FastReader {
+	 BufferedReader br; 
+     StringTokenizer st; 
+
+     public FastReader(String file) throws FileNotFoundException { 
+         br = new BufferedReader(new FileReader(file)); 
+     } 
+
+     String read() { 
+         while (st == null || !st.hasMoreElements())  { 
+             try { 
+                 st = new StringTokenizer(br.readLine()); 
+             } 
+             catch (IOException  e) { 
+                 e.printStackTrace(); 
+             } 
+         } 
+         return st.nextToken(); 
+     } 
+
+     int readInt() { 
+         return Integer.parseInt(read()); 
+     } 
+
+     long readLong() { 
+         return Long.parseLong(read()); 
+     } 
+
+     double readDouble() { 
+         return Double.parseDouble(read()); 
+     } 
+
+     String readLine() { 
+         String str = ""; 
+         try { 
+             str = br.readLine(); 
+         } 
+         catch (IOException e) { 
+             e.printStackTrace(); 
+         } 
+         return str; 
+     }
+}
