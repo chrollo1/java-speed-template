@@ -12,8 +12,6 @@ char _;
 #define pb push_back
 #define pii pair<int, int>
 #define mp make_pair
-#define f first
-#define s second
 #define mii map<int, int>
 #define umii unordered_map<int, int>
 
