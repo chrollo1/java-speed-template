@@ -172,7 +172,7 @@ public class FastestReader {
         return (neg) ? -ret : ret;
     }
 
-    public static String nextString() throws IOException {
+    public static String readString() throws IOException {
         byte[] ret = new byte[1024];
         int idx = 0;
         byte c = read();
