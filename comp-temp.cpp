@@ -20,10 +20,6 @@ char _;
 using namespace std;
 
 int main (int argc, char const *argv[]) {
-	#ifdef NOT_DMOJ
-	freopen("in.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
-	#endif // NOT_DMOJ
 	cin.sync_with_stdio(0);
 	cin.tie(0);
 	cout.tie(0);
