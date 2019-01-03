@@ -117,7 +117,7 @@ public class FastestReader {
         return ret;
     }
 
-    public static int nextInt() throws IOException {
+    public static int readInt() throws IOException {
         int ret = 0;
         byte c = read();
         while (c <= ' ')
