@@ -132,7 +132,7 @@ public class FastestReader {
         return (neg) ? -ret : ret;
     }
 
-    public static long nextLong() throws IOException {
+    public static long readLong() throws IOException {
         long ret = 0;
         byte c = read();
         while (c <= ' ')
